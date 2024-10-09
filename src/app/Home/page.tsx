@@ -39,7 +39,7 @@ export default function Home() {
             <div key={index}>
               <h2>{item.name}</h2>
               <h2>{item.gender}</h2>
-              {/* <Image src={item.image} alt={item.name} width={250} height={250}></Image> */}
+              <img src={item.image} alt={item.name} width={250} height={250}/>
             </div>
           )
         }) }
